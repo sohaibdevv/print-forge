@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import HeroImage from '../public/home-page-hero.png';
+import HeroImage from '../public/homeimage.png';
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
             Your go-to platform for 3D printing files
           </p>
           <h1 className="text-4xl font-bold md:text-5xl">
-            Discover possible with 3D Printing
+            Discover what is possible with 3D Printing
           </h1>
           <p className="text-lg text-gray-600">
             Join our community of creators and explore a vast
@@ -33,6 +33,8 @@ export default function Home() {
           width={350}
           // height={400}
           priority
+          className='w-[350px] h-auto rounded-lg" />
+'
         />
       </section>
     </main>
